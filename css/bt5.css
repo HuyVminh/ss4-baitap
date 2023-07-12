@@ -1,0 +1,23 @@
+i{
+    margin: 20px;
+    transform: scale(2);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+div{
+    width: 120px;
+    height: 100px;
+    background-color: rgb(35, 145, 255);
+    text-align: left;
+    padding-top: 10px;
+    translate: -110px ;
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+}
+i:hover {
+    transform: scale(1.5);
+}
+i:active+div{
+    translate: 50px;
+}
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 750;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 10px;
+        }
+
+        #aa {
+            margin-right: 10px;
+            width: 280px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid rgb(200, 200, 200);
+        }
+
+        #bb {
+            width: 100px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(66, 252, 28);
+            color: #fff;
+        }
+
+        .div1 {
+            position: relative;
+            width: 200px;
+        }
+
+        .div01 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid rgb(200, 200, 200);
+            padding: 10px;
+            padding-right: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 3px;
+        }
+
+        .div02 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid rgb(200, 200, 200);
+            padding: 10px;
+            padding-right: 30px;
+            margin-top: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Quản lý công việc</h1>
+        <form action="">
+            <input id="aa" type="text" placeholder="Thêm công việc mới">
+            <input type="submit" name="" id="bb" value="Thêm">
+        </form>
+        <hr>
+        <div class="div1">
+            <div class="div01">
+                <div style="font-size: 1.1rem; width: 40px;">Đi chợ</div>
+                <div>
+                    <div style="background-color:rgb(66, 252, 28) ; padding: 5px 10px;color: #fff;border-radius: 10px;">Hoàn thành</div>
+                    <div style="width: 40px; text-align: center;background-color:rgb(28, 136, 252) ; padding: 5px; color: #fff;border-radius: 10px;margin-top: 5px;">Xóa</div>
+                </div>
+            </div>
+            <div class="div02">
+                <div style="font-size: 1.1rem; width: 40px;">Đi bơi</div>
+                <div>
+                    <div style="background-color:rgb(66, 252, 28) ; padding: 5px 10px;color: #fff;border-radius: 10px;">Hoàn thành</div>
+                    <div
+                        style="width: 40px; text-align: center;background-color:rgb(28, 136, 252) ; padding: 5px; color: #fff;border-radius: 10px;margin-top: 5px;">
+                        Xóa</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

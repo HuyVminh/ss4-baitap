@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .chinh{
+            width: 500px;
+            height: 800px;
+            background-image: url(./ban.jpg);
+            background-position: -600px ;
+            border-radius: 10px;
+            position: relative;
+        }
+        .toto{
+            position: absolute;
+            line-height: 0;
+            color: rgb(217, 217, 217);
+            bottom: 80px;
+            left: 20px;
+        }
+        .input{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            gap: 5px;
+            position: absolute;
+            bottom: 30px;
+            left: 40px;
+            transform: scale(1.5);
+            color: rgb(217, 217, 217);
+            cursor: pointer;
+            transition: all 0.5s ease-in-out;
+        }
+        .input:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chinh">
+        <div class="chu">
+            <div class="toto">
+                <p style="font-size: 2.5rem; font-weight: 800;">Latest Thinking</p>
+                <p style="font-weight: lighter ;"></pstyle>Equip yourseft with Rikkeisoft latest knowledge</p>
+            </div>
+            <div class="input">
+                <p>Explore</p>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
